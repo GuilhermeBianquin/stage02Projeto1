@@ -1,43 +1,44 @@
-body{
-  font-family: 'Open Sans', sans-serif;
-  text-align: center; /*alinhamento de testo ao centro mas tbm alinha as imagens*/
-  margin: 0;
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 0px;
 }
 
-#hero{
-  width: 592px; /*largura maxima da caixa*/
-  margin: 0 auto 72px; /*Margem */
+#hero {
+  width: 592px;
+  margin: 0 auto 72px;
 }
 
-#hero img{
-  margin-bottom: 72px; /*margin inferior*/
+img {
+    margin-top: 0px;
+    margin-bottom: 72px;
 }
 
-h1{
-  font-family: 'Inter', sans-serif;
+h1 {
+  font-family: "Inter", sans-serif;
   font-size: 49px;
-  line-height: 56px; /*altura de linha*/
-  font-weight: normal; /*Peso dessa fonte*/
-  margin-bottom: 32px;
+  line-height: 56px;
+  font-weight: normal;
+  text-align: center;
 }
 
-h1 span{
+h1 span {
   font-weight: bold;
 }
 
 span, a {
-  color: #FF9900;
+  color: #ff9900;
 }
 
-p, #footer{
-  color: #7D7987;
+p, #footer {
+  color: #7d7987;
   font-size: 14px;
-  line-height: 28px; /*espaço entre os textos */
+  line-height: 28px;
 }
 
-/*Pegar o elemento a que tem anterior a ele o a*/
-#footer a + a{
-  margin-left: 28px;
+
+#footer a + a {
+    margin-left: 28px;
 }
 
 .line{
@@ -47,8 +48,8 @@ p, #footer{
   margin: 0 auto 8px;
 }
 
-#balls{
-  position: fixed; /*criando uma nova camada sobreposta*/
-  bottom: 0px;
-  right: 0px;
+#balls {
+    position: fixed;
+    bottom: 0px;
+    right: 0;
 }
